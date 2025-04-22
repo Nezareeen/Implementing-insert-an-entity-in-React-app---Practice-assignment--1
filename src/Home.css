@@ -1,4 +1,4 @@
-/* src/components/Home.css */
+/* src/Home.css */
 
 .home-container {
   padding: 20px;
@@ -18,4 +18,8 @@
 h1 {
   font-size: 2.5em;
   color: #333;
+}
+
+.add-book-button{
+  color: white;
 }

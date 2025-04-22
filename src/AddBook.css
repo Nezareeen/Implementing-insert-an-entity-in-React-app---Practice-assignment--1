@@ -1,0 +1,74 @@
+/* src/AddBook.css */
+
+*{
+    color: #000000;
+}
+.add-book-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-book-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="url"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  .form-actions button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-actions button[type="submit"] {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+  }
+  
+  .form-actions button[type="submit"]:hover {
+    background-color: #1e7e34;
+  }
+  
+  .form-actions button[type="button"] {
+    background-color: #dc3545;
+    color: rgb(255, 255, 255);
+  }
+  
+  .form-actions button[type="button"]:hover {
+    background-color: #c82333;
+  }
